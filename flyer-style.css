@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+flyer {
+  background-color: #e3f2fd;
+  border: 1px solid black;
+  width: 60%;
+}
+header {
+  /*border: 1px solid black;*/
+
+  height: 350px;
+  display: flex;
+  padding: 0px 40px;
+  position:relative;
+
+}
+
+.header-text {
+
+  position: relative;
+  width: 380px;
+}
+.header-img {
+  /*border: 1px solid red;*/
+  overflow: hidden;
+  width: 400px;
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+.title {
+  font-size: 50px;
+  font-family: Arial Black;
+  line-height: 55px;
+position:absolute;
+
+}
+
+.title-span {
+  font-size: 70px;
+}
+
+.subtitle {
+  font-size: 17px;
+position:absolute;
+  font-family: Verdana;
+  top:150px;
+}
+.blue-round-img {
+  overflow: hidden;
+  transform: rotate(180deg);
+  width: 160px;
+  height: 250px;
+  position:absolute;
+  top: 100px;
+  left: -40px;
+}
+
+.blue-rectangle-img{
+  background-color:#2196f3;
+  position:absolute;
+  width:120px;
+  height:350px;
+  right:0px;
+
+
+}
+
+.blue-rectangle-img2{
+  background-color:#2196f3;
+  position:absolute;
+  width:120px;
+  height:350px;
+  right:0px;
+  opacity: 0.3;
+
+}
+
+main {
+  display: flex;
+  padding: 10px 40px 40px;
+  font-family: Verdana;
+  font-size: 17px;
+ position:relative;
+  text-align: justify;
+
+
+}
+.main-definition {
+  width: 45%;
+  margin-right: 50px;
+  position: relative;
+}
+.main-description {
+  width: 45%;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+
+.item-span {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  height: 80px;
+  padding: 0px 40px;
+  background-color: #2196f3;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+}
+.gray-circle{
+  position: absolute;
+  overflow:hidden;
+  bottom:0px;
+  right:0px;
+  width:620px;
+  height:354px;
+  opacity:0.6;
+
+}
